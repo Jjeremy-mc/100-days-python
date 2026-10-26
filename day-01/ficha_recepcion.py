@@ -1,0 +1,15 @@
+print("==== TALLER JEREMY - RECEPCION DE EQUIPOS ====")
+nombre_cliente = input("Nombre del cliente: ")
+telefono_clint = input("Telefone: ")
+tipo_equipo = input("Tipo de equipo: ")
+marca_equipo = input("Marca del equipo: ")
+problema = input("Que Problema Tiene: ")
+
+print("\n\n ---- Ficha de Recepcion ----")
+print("Cliente:", nombre_cliente)
+print("Telefone:", telefono_clint, "(", len(telefono_clint), "digitos )")
+print("Equipo:", tipo_equipo, marca_equipo)
+print("Problema:", problema)
+print("Descripcion con", len(problema), "caracteres")
+
+print("\nGracias", nombre_cliente, "te avisaremos cuando este listo" )
